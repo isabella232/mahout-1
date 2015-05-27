@@ -4,4 +4,4 @@ before_script:
   - "export JAVA_OPTS=-Xmx2g"
 script:
   - mvn test
-  - mvn install -DskipTests=true
+  - mvn install
